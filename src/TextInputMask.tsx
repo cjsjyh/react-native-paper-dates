@@ -83,7 +83,6 @@ function TextInputWithMask(
       onChange={(e) => {
         onChange && onChange(e)
       }}
-      maxLength={10}
       right={inputButton}
     />
   )
